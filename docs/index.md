@@ -14,6 +14,8 @@ An iBeacon in the shape of an egg.
 
 ## PCB
 
+The PCB and schematic were drawn in [EasyEDA](https://oshwlab.com/bpijls/crowdcontroller_copy). It's a 2 layer board designed to fit in the egg shell.
+
 |peripheral| pin|
 |--|--|
 |button| GPIO 9|
