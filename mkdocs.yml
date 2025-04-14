@@ -1,11 +1,8 @@
 # Replace the text below to customize your site
-site_name: Crowd Controller
-site_description: Crowd Controller
+site_name: eiBeacon
+site_description: eiBeacon Documentation
 site_author: Bas Pijls
-copyright: Copyright 2024 Bas Pijls
-
-# site_url: https://knowledgebase.hbo-ict-hva.nl
-# repo_url: https://gitlab.fdmci.hva.nl/propedeuse-hbo-ict/knowledgebase/student-knowledgebase
+copyright: Copyright 2025 Bas Pijls
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -13,14 +10,11 @@ extra_javascript:
 
 theme:
   name: material
-
-  # custom_dir: mdocotion
   hide_site_name: true
   content_margin_top: 0px
   icon:
-    logo: material/music-note-bluetooth
+    logo: material/egg
   
-
   features:
     - search.share
     - content.code.annotate
