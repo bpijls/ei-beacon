@@ -14,6 +14,11 @@ An iBeacon in the shape of an egg.
 
 ## PCB
 
+|peripheral| pin|
+|--|--|
+|button| GPIO 9|
+|WS2812 LED| GPIO 5|
+
 |![eiBeaconSchematic](./schematic_eiBeacon.png)|
 |-|
 |eiBeacon Schematic|
@@ -24,7 +29,7 @@ An iBeacon in the shape of an egg.
 
 ## Firmware
 
-The firmware is based on the iBeacon example in the ESP32 Arduino core.
+The [firmware](https://github.com/bpijls/ei-beacon/tree/main/ei-beacon.ino) is based on the iBeacon example in the ESP32 Arduino core.
 
 - When the `boot` pin is pressed after reset, the device will enter a mode where it is possible to enter the beacon name and the beacon UUID on the serial port.
 - The device flashes it's LED every 60 seconds. It cycles through 6 colors.
