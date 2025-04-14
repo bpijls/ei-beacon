@@ -14,7 +14,6 @@
 #define SERVICE_UUID "7A0247E7-8E88-409B-A959-AB5092DDB03E"
 #define CHARACTERISTIC_UUID "82258BAA-DF72-47E8-99BC-B73D7ECD08A5"
 
-
 #define CONFIG_BUTTON_PIN 9
 #define EEPROM_SIZE 128
 
@@ -179,8 +178,8 @@ void initBeacon() {
   // iBeacon
   BLEBeacon myBeacon;
   myBeacon.setManufacturerId(0x4c00); // 0x4c00 is the apple manufacturer ID. This makes the BLE device register as an actual iBeacon
-  myBeacon.setMajor(6); // Major and minor don't hold interesting information
-  myBeacon.setMinor(5);
+  myBeacon.setMajor(5); // Major and minor don't hold interesting information
+  myBeacon.setMinor(88);
   myBeacon.setSignalPower(0xc5);
   myBeacon.setProximityUUID(BLEUUID(beaconUUID)); // set the name of the beacon
 
