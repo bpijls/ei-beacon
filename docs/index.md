@@ -40,7 +40,7 @@ The enclosure is drawn in rhino and can be printed in 2 parts.
 
 !!! note "Print with support"
 
-    Support is needed for the bottom of both parts. Support for the inside of the shell can be turned off.
+    Print both parts with their opening on the print-bed. Support is needed for the bottom of both parts. Support for the inside of the shell can be turned off.
 
 |![](shell-parts.png)|![](shell-pcb-slot.png)|
 |-|-|
