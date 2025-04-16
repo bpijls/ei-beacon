@@ -31,7 +31,7 @@ The PCB and schematic were drawn in [EasyEDA](https://oshwlab.com/bpijls/crowdco
 
 ## Firmware
 
-The [firmware](https://github.com/bpijls/ei-beacon/tree/main/ei-beacon.ino) is based on the iBeacon example in the ESP32 Arduino core.
+The [firmware](https://github.com/bpijls/ei-beacon/tree/main/ei-beacon) is based on the iBeacon example in the ESP32 Arduino core.
 
 - When the `boot` pin is pressed after reset, the device will enter a mode where it is possible to enter the beacon name and the beacon UUID on the serial port.
 - The device flashes it's LED every 60 seconds. It cycles through 6 colors.
